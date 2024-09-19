@@ -4,11 +4,11 @@ Chat Room Program
 Files:
 chatclient.py
  - Runs the chat room server. Waits for incoming connections and dispatches threads to handle each. 
- - takes arguments <server_name><server_port><username> 
+ - takes arguments server_name server_port username  
 
 chat_server.py 
  - Runs the chat room client program. Attempts to connect to the server specified as username. 
- - takes arguemnt <server_port>
+ - takes arguement server_port
 
 SimpleAuth.py
  - Handles user authentication and storing data
@@ -19,7 +19,7 @@ users.json
 
 Operation:
 Private Message: 'PM messagetext'
-Direct Message:  'DM <username> messagetext'
+Direct Message:  'DM username messagetext'
 Show User List:  'SU'
 Exit Server:     'EX'
 
